@@ -1,0 +1,381 @@
+.btn{
+    width: 180px;
+    margin-left: 5px;
+    margin-top:10px ;
+    height: 40px;
+    background-image: url("https://image.shutterstock.com/image-vector/oriental-japanese-style-abstract-pattern-260nw-1727273851.jpg");
+    border-radius: 20px !important;
+    
+  }
+  .btn_upload{
+    width: 180px;
+    margin-left: 40px;
+    margin-top:15px ;
+    height: 40px;
+    background-image: url("https://image.shutterstock.com/image-vector/oriental-japanese-style-abstract-pattern-260nw-1727273851.jpg");
+    border-radius: 20px !important;
+    
+  }
+  .btn_next{
+    width: 180px;
+    margin-left: 40%;
+    margin-top:40% ;
+    height: 40px;
+    
+    background-image: url("https://image.shutterstock.com/image-vector/oriental-japanese-style-abstract-pattern-260nw-1727273851.jpg");
+    border-radius: 20px !important;
+    
+  }
+  .btn_signin{
+    width: 180px;
+    margin-left: 39%;
+    margin-top:43% ;
+    height: 40px;
+    background-image: url("https://image.shutterstock.com/image-vector/oriental-japanese-style-abstract-pattern-260nw-1727273851.jpg");
+    border-radius: 20px !important;
+    
+  }
+  .Link{
+    text-decoration: none;
+  }
+  .btn_text{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .btn h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: pink;
+    font-size: 25px;
+    text-align: center;
+  }
+ 
+  .sakura_video{
+    width: 100%!important;
+    z-index: 1;
+  }
+  .card_input{
+    position: absolute;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 20%;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 50%;
+   
+  }
+  
+  .Loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 850px;
+    background-color: aqua;
+  }
+
+  .comfirm{
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("https://image.shutterstock.com/image-vector/oriental-japanese-style-abstract-pattern-260nw-1727273851.jpg");
+    color: white;
+    position:absolute;
+    top:15px;
+    right: 20px;
+    opacity: 0.7;
+  }
+  .context_input{
+    position: absolute;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 5%;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 90% !important;
+    height: 80%;
+  
+  }
+  .context_input_login{
+    position: absolute;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 5%;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 70% !important;
+    height: 80%;
+    margin-left: 60px;
+  
+  }
+  .context_field{
+    width: 90% !important;
+    height: 7%!important;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .context_field1{
+    width: 90% !important;
+    height: 45%!important;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .context_header{
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 70%;
+    font-size: 20px ;
+    color: black;
+    margin-left: 10px;
+  }
+  .signin_header{
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 70%;
+    font-size: 20px ;
+    color: black;
+    text-align: center;
+  }
+  .context_header1{
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 70%;
+    font-size: 20px ;
+    color: black;
+    margin-left: 10px;
+    margin-top: 60px;
+  }
+  .context_header5{
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 70%;
+    font-size: 15px ;
+    color: black;
+    margin-left: 10px;
+    margin-top: 60px;
+  }
+  .context_header2{
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 70%;
+    font-size: 20px ;
+    color: black;
+    margin-left: 10px;
+    margin-top: 70px;
+  }
+  .context_header3{
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 70%;
+    font-size: 20px ;
+    color: black;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .context_header4{
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 70%;
+    font-size: 17px ;
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .login h3{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 5%;
+    text-align: center;
+    color: skyblue;
+  }
+  .pic_profile{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  .close{
+    display: none;
+  }
+  .info_profile{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    
+  }
+  .username{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+  }
+  .text_info h4{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 39px;
+    padding: 5px;
+    margin-left: 50px;
+    text-decoration: underline;}
+    
+  
+  .text_info p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: larger;
+    margin-left: 52px;
+  }
+  .line{
+    width: 100%;
+    height: 2px;
+    border-top: 2px dotted skyblue;
+  }
+  .search{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border: 2px solid black;
+    border-radius: 50px;
+    opacity: 0.5;
+  }
+  .News_link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .News_link:hover{
+    color: yellow;
+  }
+  .footer{
+    background-color: #663b2d;
+    z-index: 1;
+    width: 100%;
+    height: 120px;
+    margin-top: 50px;
+  }
+  
+.footer h3{
+  font-family: 'PT Sans', sans-serif;
+  color: snow;
+  text-align: center;
+  font-size: large;
+  
+}
+  
+ 
+  
+  
+  @media only screen and (max-width: 760px) {
+    .sakura_video{
+      content: url("https://i.pinimg.com/originals/62/f6/0e/62f60eb00055ce5a3580bd91559f9f94.gif");
+    }
+    .btn_next{
+      margin-top: 115%;
+      margin-left: 22%;
+    }
+    .btn_signin{
+      margin-left: 19%;
+    }
+   
+  }
+  
+  @media only screen and (max-width: 1000px) and (min-width:761px) {
+    .sakura_video{
+      content: url("https://giffiles.alphacoders.com/212/212449.gif");
+    }
+    .btn_next{
+      margin-top: 70%;
+      margin-left: 37%;
+    }
+   
+  }
+  @media only screen and (max-width: 1500px) and (min-width:761px) {
+   .login_form h4{
+      text-align: center;
+   }
+   .inputfield_login{
+     display: block;
+     margin: 0 auto;
+     width: 400px;
+   }
+
+   .context_input_login{
+    width: 80% !important;
+    display: block;
+    height: 50%;
+  }
+  .login_form h3{
+    position: relative;
+    left: 12%;
+  }
+  .login_form h4{
+    position: relative;
+    left: 12%;
+  }
+  .inputfield_login{
+    position: relative;
+    left: 12%;
+  }
+  .Sign_in{
+    position: relative;
+    left: 58%;
+    bottom: -10px;
+    
+  }
+  .btn_next{
+    margin-left: 40%;
+  }
+  
+  
+
+    
+  }
+  @media only screen and (min-width: 1200px) and (max-width:1500px){
+    .btn_signin{
+      position: absolute;
+      top:-10%;
+      left: 6%;
+    }
+    .btn_next{
+      position: absolute;
+      top:10%;
+      right: 43%;
+    }
+    .img{
+      width: 100%;
+      height: 500px;
+      
+    }
+    
+  }
+  
+  
+  .profile_picture{
+    border: 2px solid whitesmoke;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 100px;
+  }
+    
+    
+
+
+  
+
+  
+
+  
+
+
+  

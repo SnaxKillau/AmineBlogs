@@ -1,3 +1,9 @@
+*{
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+  
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +11,284 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    
 }
+.text{
+  
+  font-family: 'Lobster', cursive;
+  color: whitesmoke !important;
+}
+.pic{
+  width: 100px;
+  height: 50px;
+}
+.card{
+  position: relative;
+  top:50px;
+  margin: 10px;
+  height: 330px;
+  border: 0 !important;
+}
+.perentCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.smallpic{
+  position: absolute;
+  bottom: 10px;
+  width: 30px;
+  height: 30px;
+  
+  border-radius: 50%;
+}
+.bigpic{
+   width: 222px !important;
+   height: 120px ;
+   position:relative;
+
+   border:1px solid black;
+   border-radius: 10px !important;
+
+   right: 12px;
+}
+.title{
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+.cardtext{
+  font-family: 'Josefin Sans', sans-serif;
+  opacity: 50%;
+  font-size: 10px ;
+}
+.date{
+  font-size: 9px;
+}
+.smalltext{
+  font-family: 'Josefin Sans', sans-serif;
+  opacity: 60%;
+  font-size: 12px ;
+  position: absolute;
+  bottom: 7px;
+  left: 60px;
+  
+}
+.inputtextheader{
+  font-family: 'Josefin Sans', sans-serif;
+  opacity: 70%;
+  font-size: 16px ;
+}
+.inputfield{
+  font-family: 'Josefin Sans', sans-serif;
+  opacity: 70%;
+  font-size: 16px ;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  width: 260px;
+ 
+}
+.inputfield_login{
+  font-family: 'Josefin Sans', sans-serif;
+  opacity: 70%;
+  font-size: 16px ;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  width: 300px;
+ 
+}
+.inputpic{
+ margin-left:16px;
+ font-family: 'Josefin Sans', sans-serif;
+
+}
+.info_user{
+  display: inline;
+}
+
+.goto_btn i{
+ position:absolute;
+ bottom: 15px;
+ color: pink;
+ right: 30px;
+}
+
+
+
+.delect_btn{
+  color: pink;
+  border: 0;
+  background-color: white;
+  position: absolute;
+  right:50px;
+  bottom: 6px;
+ 
+  transition: all 0.5s;
+}
+.delect_btn:hover{
+  background-color: rgba(255, 0, 0, 0.89);
+  border-radius: 10px;
+}
+.input_filde{
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      top: 250px;
+      left: 350px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.Header{
+ background-color: #663b2d;
+ z-index: 1;
+}
+.img{
+  width: 100%;
+  height: auto;
+
+}
+.news{
+  border: 2px solid skyblue;
+  height:90px;
+  border-radius: 20px;
+  margin:3% !important;
+}
+.For_img{
+  
+  height: 85px;
+  border: 1px solid black;
+ 
+}
+.For_text{
+  
+  font-family: 'PT Sans', sans-serif;
+}
+.news_img{
+  height: 100px;
+  float: left;
+  padding-right: 10px;
+}
+.Landscpape figure{
+  width: 500%;
+  position: relative;
+  margin: 0;
+  left: 0;
+  
+  animation: 20s slider infinite;
+}
+.Landscpape figure img{
+  width: 20%;
+  float: left;
+  border-radius: 5px;
+  
+}
+@keyframes slider {
+  0%{
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
+  75%{
+    left: -300%;
+  }
+  90%{
+    left: -300%;
+  }
+  100%{
+    left: -400%;
+  }
+}
+.login_form h3{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+.login_form h4{
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 5px;
+
+}
+.login_page{
+  background-image: url("https://preview.redd.it/y2julru7g0871.jpg?auto=webp&s=8b1feaf5d6c88f2214f0734495ce5931a585dd1b");
+  height: 900px;
+}
+.Sign_in{
+   position: relative;
+   top: 10%;
+   left: 50%;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: skyblue;
+  color: black;
+  border-radius:  20px;
+}
+
+@media only screen and (min-width:575px){
+ .login_form{
+   width: 80% !important;
+ }
+ 
+ .Sign_in{
+   top: 50px;
+   left: -5%;
+ }
+ .login_form h3{
+  position: relative;
+  left: 12%;
+}
+.login_form h4{
+  position: relative;
+  left: 52%;
+}
+.inputfield_login{
+  position: relative;
+  left: 30%;
+}
+
+}
+@media only screen and (max-width:575px){
+ 
+  .Sign_in{
+    left: 40%;
+  }
+  
+ 
+ }
+@media only screen and (max-width: 1500px) and (min-width:761px) {
+   .login_page{
+    height: 820px;
+   }
+   
+
+  }
+
+
+
